@@ -71,15 +71,15 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-Check Node Js version
+**Check Node Js version**
 ```
 node -v
 ```
-Check NPM version 
+**Check NPM version**
 ```
 npm -v
 ```
-Check Git version
+**Check Git version**
 ```
 git --version
 ```
@@ -93,7 +93,7 @@ git clone https://github.com/o1-labs/zkapp-cli
 npm instal -g zkapp-cli@0.5.3
 ```
 
-Check ZK version
+**Check ZK version**
 ```
 zk --version
 ```
@@ -147,7 +147,7 @@ npm run build
 
 # 4. Create Files
 
-go to `ui/pages` directory
+**go to `ui/pages` directory**
 
 ```
 cd
@@ -162,7 +162,7 @@ cd 04-zkapp-browser-ui/ui/pages
 nano zkappWorker.ts
 ```
 
-Put this script to the file
+**Put this script to the file**
 
 ```
 import {
@@ -260,7 +260,7 @@ if (process.browser) {
 ```
 **Save**
 
-press `Ctrl`+`X` and `Y` then `Enter`
+**press `Ctrl`+`X` and `Y` then `Enter`**
 
 ## b. create second file
 
@@ -270,7 +270,7 @@ press `Ctrl`+`X` and `Y` then `Enter`
 nano zkappWorkerClient.ts
 ```
 
-Put this script to the file:
+**Put this script to the file:**
 
 ```
 import {
@@ -368,11 +368,11 @@ export default class ZkappWorkerClient {
 
 **Save**
 
-press `Ctrl`+`X` and `Y` then `Enter`
+**press `Ctrl`+`X` and `Y` then `Enter`**
 
 # 5. Add CSS
 
-go to `ui/styles` directory
+**go to `ui/styles` directory**
 
 ```
 cd
@@ -447,10 +447,11 @@ npm run ts-watch
 **2. Make sure the snark.js is opened**
 
 **3. you can close 2 tabs who used on your VPS before**
+  
 
 # 7. Implementing the react app
 
-go to `ui/pages` directory and open `_app.page.tsx` file
+**go to `ui/pages` directory and open `_app.page.tsx` file**
 
 ```
 cd
@@ -664,7 +665,7 @@ export default function App() {
 
 **Save**
 
-press `Ctrl`+`X` and `Y` then `Enter`
+**press `Ctrl`+`X` and `Y` then `Enter`**
 
 # 8. Deploying UI to your repository
 
@@ -695,7 +696,7 @@ npm run deploy
 
   `<USERNAME>`= change with your github username
   
-  if your browser ask Auro wallet for connection, means it success deployed
+  **if your browser ask Auro wallet for connection, means it success deployed**
   
   
 # 9. Send some tokens
