@@ -710,7 +710,7 @@ npm run deploy
 - wait till the `send transaction` button appeared
 ![snarkyy](https://user-images.githubusercontent.com/78480857/204076343-59735750-565f-4994-87e0-41379f3d5e68.png)
 
-- click it and wait till the wallet pop up, then change the fees to 1 MINA for faster transaction
+- click it and wait till the wallet pop up, then change the fees to 10 MINA (prefer) for faster transaction and make sure it success
 
 - send again more than 5 times (recommended)
 
