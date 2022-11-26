@@ -116,7 +116,7 @@ git remote add origin <your-repo-url>
 git push -u origin main
 ```
 
-`<Your-Repo-Url>` = Url from your Repository on Github
+`<your-repo-url>` = Url from your Repository on Github
 
 ### (OPTIONAL)
 if you face error when login to remote your Repository, use your Github token for authentication:
